@@ -4,3 +4,4 @@
 - The processed file can be downloaded at [OMIX data base](https://ngdc.cncb.ac.cn/omix/release/OMIX002290)
 - The raw data can be dowanload at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011245)
 - The distribution of genes can be explored at our [website](http://159.138.151.218:3569/)
+  - If you found any bugs in our website, please reported [here](https://github.com/ZhaiLab-SUSTech/soybean_sn_st/issues/new)
