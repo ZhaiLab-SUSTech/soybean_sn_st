@@ -30,10 +30,18 @@
       - rpy2 (Used to implement invocation of R packages in python environment)
       - clusterprofiler (Used to perform GO enrichmenth analysis)
 
-    
+## Main steps
+
+### preprocessing
+1. Get 10X cell-gene matrix using the [snakemake file](main/snakemake_cellranger/snakefile)
+2. Get stereo-seq cell-gene matrix using the [script](main/scripts/run_orthofinder.sh)
+3. Get orthologs between arabidopsis and soybean using the [script](main/scripts/run_orthofinder.sh)
+
+### Analysis
+
+This [jupyter file](main/jupyter/20221103_all_merged.ipynb) contains the scripts needed for downstream analysis. Github often fails to preview large jupyter files, try nbviewer as an alternative.
+
 ## Others
-- Github often fails to preview large jupyter file, try using [nbviewer](https://nbviewer.org/github/ZhaiLab-SUSTech/soybean_sn_st/blob/main/20221103_all_merged.ipynb) as an alternative.
 - The processed file can be downloaded at [OMIX data base](https://ngdc.cncb.ac.cn/omix/release/OMIX002290)
-- The raw data can be dowanload at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011245)
 - The gene expression pattern can be explored at our [website](http://159.138.151.218:3569/)
   - If you found any bugs in our website, please reported [here](https://github.com/ZhaiLab-SUSTech/soybean_sn_st/issues/new)
