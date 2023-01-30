@@ -39,7 +39,7 @@
 
 ### Analysis
 
-This [jupyter file](main/jupyter/20221103_all_merged.ipynb) contains the scripts needed for downstream analysis. Github often fails to preview large jupyter files, You can download this [html version](main/jupyter/all_merged.html) and view it directly in your browser as an alternative. 
+This [jupyter file](main/jupyter/all_merged.ipynb) contains the scripts needed for downstream analysis. Github often fails to preview large jupyter files, You can download this [html version](main/jupyter/all_merged.html) and view it directly in your browser as an alternative. 
 
 ## Others
 - The processed file can be downloaded at [OMIX data base](https://ngdc.cncb.ac.cn/omix/release/OMIX002290)
