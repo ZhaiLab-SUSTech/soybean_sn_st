@@ -1,5 +1,37 @@
 **Scripts used to reproduced results represented in `Integrated single-nucleus and spatial transcriptomics captures transitional states in soybean nodule maturation`**
-- jpy_tools is available in my another repository [jpy_tools](https://github.com/ZhaiLab-SUSTech/jpy_tools)
+
+## Requirments
+  1. Data Required
+      - Genome file
+        - Soybean (a2.v1)
+        - Arabidopsis (v11)
+      - Raw data
+        10x and stereo-seq data can be downloaded at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011245)
+  2. Softwares Required
+      - CellRanger (Used for processing 10x raw data)
+      - SAW (Used for processing stereo-seq raw data)
+      - scanpy  (Used for downstream analysis of 10X data)
+      - Seurat (Used for downstream analysis of 10X data)
+      - scDblFinder (Used for removing putative doublets)
+      - scvi-tools (Used to implement 10X data integration)
+      - scanorama (Used to implement 10X data integration)
+      - harmonypy (Used to implement 10X data integration)
+      - stereopy (Used for downstream analysis of stereoseq data)
+      - Sctransform (Used for normalization of stereopy data)
+      - muon (Used for normalization of stereopy data)
+      - scVelo (Used to implement trajectory inference)
+      - monocle3 (Used to implement trajectory inference)
+      - cellrank (Used to implement trajectory inference)
+      - diffxpy (Used to identify DEGs)
+      - AUCell (Used for calculating gene set expression score)
+      - pyscenic (Used for calculating gene set expression score)
+      - jpy_tools (A wrapper of single-cell analysis tools, which is available in my another repository [jpy_tools](https://github.com/ZhaiLab-SUSTech/jpy_tools))
+      - OrthoFinder (Used to find orthologs between arabidopsis and soybean)
+      - rpy2 (Used to implement invocation of R packages in python environment)
+      - clusterprofiler (Used to perform GO enrichmenth analysis)
+
+    
+## Others
 - Github often fails to preview large jupyter file, try using [nbviewer](https://nbviewer.org/github/ZhaiLab-SUSTech/soybean_sn_st/blob/main/20221103_all_merged.ipynb) as an alternative.
 - The processed file can be downloaded at [OMIX data base](https://ngdc.cncb.ac.cn/omix/release/OMIX002290)
 - The raw data can be dowanload at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011245)
