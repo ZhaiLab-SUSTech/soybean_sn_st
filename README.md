@@ -32,7 +32,7 @@
 
 ## Main steps
 
-### preprocessing
+### Preprocessing
 1. Get 10X cell-gene matrix using the [snakemake file](main/snakemake_cellranger/snakefile)
 2. Get stereo-seq cell-gene matrix using the [script](main/scripts/run_orthofinder.sh)
 3. Get orthologs between arabidopsis and soybean using the [script](main/scripts/run_orthofinder.sh)
