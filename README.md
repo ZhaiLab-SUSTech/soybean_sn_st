@@ -6,7 +6,7 @@
         - Soybean (a2.v1)
         - Arabidopsis (v11)
       - Raw data
-        10x and stereo-seq data can be downloaded at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011245)
+        10x and stereo-seq data can be downloaded at [CNCB data base](https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA009893)
   2. Softwares Required
       - CellRanger (Used for processing 10x raw data)
       - SAW (Used for processing stereo-seq raw data)
