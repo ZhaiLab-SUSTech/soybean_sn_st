@@ -25,7 +25,7 @@
       - diffxpy (Used to identify DEGs)
       - AUCell (Used for calculating gene set expression score)
       - pyscenic (Used for calculating gene set expression score)
-      - jpy_tools (A wrapper of single-cell analysis tools, which is available in my another repository [jpy_tools](https://github.com/ZhaiLab-SUSTech/jpy_tools))
+      - jpy_tools (A wrapper of single-cell analysis tools, which is available here [jpy_tools](main/jpy_tools))
       - OrthoFinder (Used to find orthologs between arabidopsis and soybean)
       - rpy2 (Used to implement invocation of R packages in python environment)
       - clusterprofiler (Used to perform GO enrichmenth analysis)
