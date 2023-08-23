@@ -39,7 +39,7 @@
 
 ### Analysis
 
-This [jupyter file](main/jupyter/all_merged.ipynb) contains the scripts needed for downstream analysis. Github often fails to preview large jupyter files, so you can preview these files using [nbviewer](https://nbviewer.org/github/ZhaiLab-SUSTech/soybean_sn_st/tree/main/main/jupyter/). 
+These [jupyter files](main/jupyter) contains the scripts needed for downstream analysis. Github often fails to preview large jupyter files, so you can preview these files using [nbviewer](https://nbviewer.org/github/ZhaiLab-SUSTech/soybean_sn_st/tree/main/main/jupyter/). 
 
 ## Others
 - The processed file can be downloaded at [OMIX data base](https://ngdc.cncb.ac.cn/omix/release/OMIX002290)
